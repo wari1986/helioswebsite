@@ -10080,7 +10080,7 @@ hr.light {
 }
 
 header.masthead {
-  height: 740px;
+  height: 540px;
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
   background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/workspace.jpg");
@@ -10113,10 +10113,15 @@ header.masthead h1 {
   }
 }
 
-@media (min-width:448px),(max-width:1087px) {
+@media (min-width:600px),(max-width:1087px) {
   header.masthead {
     min-height: 1090px;
   }
+@media (max-width:440px) {
+  header.masthead {
+    min-height: 740px;
+  }
+}
 }
 
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl {
@@ -10171,13 +10176,4 @@ header.masthead h1 {
 
 /* Animations */
 
-#about-text {
-  -webkit-animation:linear infinite alternate;
-  -webkit-animation-name: run;
-  -webkit-animation-duration: 5s;
-}     
-@-webkit-keyframes run {
-    0% { left: 0;}
-    50%{ left : 100%;}
-    100%{ left: 0;}
-}
+
