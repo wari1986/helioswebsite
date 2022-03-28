@@ -164,7 +164,7 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #d6370c;
+  color: #1d9dc3;
   text-decoration: underline;
 }
 
@@ -1442,7 +1442,7 @@ pre code {
   }
 }
 @media (min-width: 1200px) {
-  
+
 
   .col-xl {
     flex-basis: 0;
@@ -10107,7 +10107,7 @@ header.masthead h1 {
   }
 }
 @media (min-width: 1200px) {
-  
+
   header.masthead h1 {
     font-size: 3.5rem;
   }
@@ -10143,7 +10143,7 @@ header.masthead h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(244, 98, 58, 0.9);
+  background: rgba(29, 157,195,0.4);
   transition: opacity 0.25s ease;
   text-align: center;
 }
@@ -10158,6 +10158,10 @@ header.masthead h1 {
 }
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+
+.portfolio-subtitle {
+  margin-bottom: 50px;
 }
 
 .text-white-75 {
@@ -10175,5 +10179,3 @@ header.masthead h1 {
 }
 
 /* Animations */
-
-
